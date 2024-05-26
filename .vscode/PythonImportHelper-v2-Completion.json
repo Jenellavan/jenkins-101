@@ -1,0 +1,20 @@
+[
+    {
+        "label": "fire",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "fire",
+        "description": "fire",
+        "detail": "fire",
+        "documentation": {}
+    },
+    {
+        "label": "hello",
+        "kind": 2,
+        "importPath": "myapp.hello",
+        "description": "myapp.hello",
+        "peekOfCode": "def hello(name=\"World\"):\n  return \"Hello %s!\" % name\nif __name__ == '__main__':\n  fire.Fire(hello)",
+        "detail": "myapp.hello",
+        "documentation": {}
+    }
+]
